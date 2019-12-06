@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Linked Data Layouts
+title: Smart MaaS
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 repository: "linkeddatalayouts/linkeddatalayouts.github.io"
 twitter_username: username
-github_username: linkeddatalayouts
+github_username: SmartMaaS
 minimal_mistakes_skin: contrast
 search: true
 
@@ -35,7 +35,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-logo: "/assets/images/lidl_logo.svg"
+logo: "/assets/images/smartmaas_logo.png"
 
 include:
   - _pages
