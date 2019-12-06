@@ -16,7 +16,6 @@ We provide a free and ready-to-use data processing system which transforms and p
 * Triple store setup, configuration and data loading
 * REST API exposing [Linked GTFS](https://github.com/OpenTransport/linked-gtfs) and [Linked Connections](https://linkedconnections.org/) triples in various RDF serialization formats  
 
-
 ## Domain Model
 ![image-center](/assets/images/gtfs_domain_model.png){: .align-center}
 
@@ -26,9 +25,33 @@ Our domain model uses the terms defined in
 * the [DBPedia vocabulary](http://dbpedia.org/ontology/)
 
 
-
-
 ## System Overview
 
 ![image-center](/assets/images/gtfs_stack.png){: .align-center}
 
+## Usage
+
+### System and Environment Requirements
+
+
+### Building the system
+
+```
+git clone [BLA]
+cd [BLA]
+./docker-build.sh
+```
+
+### Processing a GTFS archive
+
+```
+./docker-run.sh --no-port /opt/gtfs-converter/import.sh https://opendata.rnv-online.de/sites/default/files/rnv-GTFS_145.zip rnv 2019-11-27
+```
+
+### Publishing the GTFS archive
+
+```
+./docker-run.sh
+```
+
+## Performance
