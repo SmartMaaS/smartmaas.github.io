@@ -1,0 +1,19 @@
+main:
+  - title: "Start"
+    url: /
+    description: "Home"
+  - title: "GTFS"       
+    url: /gtfs/
+    description: "Concept"
+  - title: "GBFS"       
+    url: /gbfs/
+    description: "Examples"
+  - title: "Vocabularies"       
+    url: https://github.com/linkeddatalayouts/vocabularies
+    description: "Vocabularies"
+  - title: "Publications"       
+    url: /publications/
+    description: "Publications"
+  - title: "About"       
+    url: /about/
+    description: "About"
