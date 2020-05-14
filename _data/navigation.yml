@@ -8,7 +8,13 @@ main:
   - title: "GBFS"       
     url: /gbfs/
     description: "Examples"
-  - title: "Vocabularies"       
+  - title: "Linked Data Hub"
+    url: /datahub/
+    description: "Documentation of Datahub API"
+  - title: "Web UI"
+    url: /webui/
+    description: "Web UI Live Demo"
+  - title: "Vocabularies"
     url: https://github.com/linkeddatalayouts/vocabularies
     description: "Vocabularies"
   - title: "Publications"       
