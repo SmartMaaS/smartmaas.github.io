@@ -1,5 +1,5 @@
 ---
-title: "GBFS"
+title: "GTFS"
 permalink: "/gtfs/"
 layout: single
 author_profile: false
