@@ -12,7 +12,7 @@ main:
     url: /datahub/
     description: "Documentation of Datahub API"
   - title: "Web UI"
-    url: /webui/
+    url: https://smartmaas.dfki.de/service/gtfs-ui/
     description: "Web UI Live Demo"
   - title: "Vocabularies"
     url: https://github.com/linkeddatalayouts/vocabularies
