@@ -2,17 +2,15 @@ main:
   - title: "Start"
     url: /
     description: "Home"
-  - title: "Documentation"
-    subfolderitems:
-    - title: "GTFS"
-      url: /gtfs/
-      description: "Concept"
-    - title: "GBFS"
-      url: /gbfs/
-      description: "Examples"
-    - title: "Linked Data Hub"
-      url: /datahub/
-      description: "Documentation of Datahub API"
+  - title: "GTFS"
+    url: /gtfs/
+    description: "Concept"
+  - title: "GBFS"
+    url: /gbfs/
+    description: "Examples"
+  - title: "Linked Data Hub"
+    url: /datahub/
+    description: "Documentation of Datahub API"
   - title: "Web UI"
     url: /webui/
     description: "Web UI Live Demo"
