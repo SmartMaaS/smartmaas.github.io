@@ -3,14 +3,14 @@ main:
     url: /
     description: "Home"
   - title: "Documentation"
-  subfolderitems:
-    - page: "GTFS"       
+    subcategories:
+    - subtitle: "GTFS"
       url: /gtfs/
       description: "Concept"
-    - page: "GBFS"       
+    - subtitle: "GBFS"
       url: /gbfs/
       description: "Examples"
-    - page: "Linked Data Hub"
+    - subtitle: "Linked Data Hub"
       url: /datahub/
       description: "Documentation of Datahub API"
   - title: "Web UI"
