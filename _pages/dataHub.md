@@ -5,11 +5,13 @@ layout: single
 author_profile: false
 classes: wide
 ---
+## Service Base URI:
+    https://usg-demo-4.sb.dfki.de:30101/service/gtfsld-gbfs/
+
 We provide a list of endpoints(queries) to acquire data from. 
-
-
 ## List:
-
+* ### / 
+    List all available endpoints
 * ### /api/v1/providers/
     Paginates all available gtfs:Providers as hydra:PartialCollectionViews
 * ### /api/v1/providers/{providerId:.+}
@@ -52,4 +54,7 @@ We provide a list of endpoints(queries) to acquire data from.
     Paginates all available gtfs:Agencies as hydra:PartialCollectionViews
 * ### /api/v1/providers/{providerId}/agencies/{agencyId:.+}
     Requests a particular gtfs:Agency   
-* ### / 
+
+
+## HTTP Methods:
+    application/ld+json application/n-quads application/n-triples application/rdf+json application/rdf+xml application/trix application/x-turtle text/n3;charset=utf-8 text/trig text/turtle 
