@@ -5,17 +5,18 @@ layout: single
 author_profile: false
 classes: wide
 ---
+We provide a list of endpoints(queries) to acquire data from. 
+
 ## Service Base URI:
     https://usg-demo-4.sb.dfki.de:30101/service/gtfsld-gbfs/
 
-We provide a list of endpoints(queries) to acquire data from. 
 ## List:
 * ### / 
     List all available endpoints
 * ### /api/v1/providers/
     Paginates all available gtfs:Providers as hydra:PartialCollectionViews
 * ### /api/v1/providers/{providerId:.+}
-    Requests a particular gtfs:Provider
+    Requests a particular gtfs:Provider(FLIXBUS, RNV etc)
 * ### /api/v1/providers/{providerId}/itinerary/
     Paginates itinerary information available gtfs:Connections as hydra:PartialCollectionViews
 * ### /api/v1/providers/{providerId}/stations/{stationId}
