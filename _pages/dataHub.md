@@ -11,5 +11,8 @@ We provide a list of endpoints(queries) to acquire data from.
 ## List:
 
 
-### /api/v1/providers/{providerId}/itinerary/
+* ### /api/v1/providers/{providerId}/itinerary/
     Paginates itinerary information available gtfs:Connections as hydra:PartialCollectionViews
+
+* ### /api/v1/providers/{providerId}/stations/{stationId}
+    Requests a particular gbfs:Station
