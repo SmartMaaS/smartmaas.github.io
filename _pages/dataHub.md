@@ -8,7 +8,7 @@ classes: wide
 We provide a list of endpoints(queries) to acquire data from. 
 
 ## Service Base URI:
-    https://usg-demo-4.sb.dfki.de:30101/service/gtfsld-gbfs/
+    https://smartmaas.dfki.de/service/gtfsld
 
 ## List:
 * ### / 
@@ -60,6 +60,6 @@ We provide a list of endpoints(queries) to acquire data from.
 ## HTTP Method:
     GET
 
-## Query Parameters:
+## Content-Type Headers:
     Following parameters triggers the text/data format accordingly.    
     application/ld+json application/n-quads application/n-triples application/rdf+json application/rdf+xml application/trix application/x-turtle text/n3;charset=utf-8 text/trig text/turtle 
