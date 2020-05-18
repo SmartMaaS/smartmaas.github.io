@@ -8,6 +8,6 @@ classes: wide
 
 We showcase the technologies and approaches from this website in an integrated interactive demo.
 
-Please [follow this link](https://smartmaas.dfki.de/service/gtfs-ui/#/) to try it out.
+Please [follow this link](https://smartmaas.dfki.de/service/gtfs-ui/#/){:target="_blank"} to try it out.
 
 ![Interactive Web UI](/assets/images/livedemo.jpg){: .align-center }
