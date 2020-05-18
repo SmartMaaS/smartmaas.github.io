@@ -57,5 +57,9 @@ We provide a list of endpoints(queries) to acquire data from.
     Requests a particular gtfs:Agency   
 
 
-## HTTP Methods:
+## HTTP Method:
+    GET
+
+## Query Parameters:
+    Following parameters triggers the text/data format accordingly.    
     application/ld+json application/n-quads application/n-triples application/rdf+json application/rdf+xml application/trix application/x-turtle text/n3;charset=utf-8 text/trig text/turtle 
