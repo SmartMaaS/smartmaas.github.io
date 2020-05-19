@@ -22,7 +22,7 @@ A public Linked Data Hub service endpoint is provided under the following URL:
 
     https://smartmaas.dfki.de/service/gtfsld
 
-## PublicList:
+## Public Service HTTP API:
 * ### / 
     List all available endpoints
 * ### /api/v1/providers/
