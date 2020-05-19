@@ -29,7 +29,15 @@ A public Linked Data Hub service endpoint is provided under the following URL:
 
 ### Content-Type Headers:
     Following parameters triggers the text/data format accordingly.    
-    application/ld+json application/n-quads application/n-triples application/rdf+json application/rdf+xml application/trix application/x-turtle text/n3;charset=utf-8 text/trig text/turtle 
+    application/ld+json
+    application/n-quads
+    application/n-triples
+    application/rdf+json
+    application/rdf+xml
+    application/trix
+    application/x-turtle
+    text/n3;charset=utf-8
+    text/trig text/turtle
 
 ### HTTP Endpoints
 	
