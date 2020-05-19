@@ -15,7 +15,7 @@ main:
     url: /webui/
     description: "Web UI Live Demo"
   - title: "Vocabularies"
-    url: https://github.com/linkeddatalayouts/vocabularies
+    url: "/vocabularies/"
     description: "Vocabularies"
   - title: "Publications"       
     url: /publications/
