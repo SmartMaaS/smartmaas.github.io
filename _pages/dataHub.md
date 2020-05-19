@@ -5,12 +5,24 @@ layout: single
 author_profile: false
 classes: wide
 ---
-We provide a list of endpoints(queries) to acquire data from. 
+The Linked Data Hub provides an HTTP endpoint that wraps remote SPARQL endpoints behind a classic HTTP API.
+Each HTTP call injects the parameters submitted with the call into a parameterized SPARQL query. This query is then executed against a SPARQL query endpoint, as defined by the Linked Data Hub server.
+The result set is returned as paginated Hydra Result set.
 
-## Service Base URI:
+* [Hydra Core Vocabulary](https://www.hydra-cg.com/spec/latest/core/){:target="_blank"}
+
+## Architecture
+
+![Linked Data Hub Architecture](/assets/images/Datahub_simplified.png){: .align-center }
+
+
+## Public Service Base URI:
+
+A public Linked Data Hub service endpoint is provided under the following URL:
+
     https://smartmaas.dfki.de/service/gtfsld
 
-## List:
+## PublicList:
 * ### / 
     List all available endpoints
 * ### /api/v1/providers/
