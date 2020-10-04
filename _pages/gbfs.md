@@ -9,6 +9,17 @@ General Bikeshare Feed Specification, abbreviated as GBFS, provides a standardiz
 
 We provide a free and ready-to-use data processing system which transforms and publishes [GBFS](https://github.com/amohoste/gbfs-linked) archives into [Linked Data](https://github.com/amohoste/gbfs-linked) using Linked GBFS and [Linked Connections](https://linkedconnections.org/) vocabularies.
 
-## Features
+## GBFS  Features
 
-* 
+* Conversion of GBFS archives to Linked Data 
+* Computation of the [Linked Connections](https://linkedconnections.org/) graph
+
+## SPARQL API/Service Features
+
+The presented novel service:
+* Performs SPARQL queries against non-RDF datasets.
+* Is not dependent of a certain source format, as long as the source to be queried is structured.
+
+## System Overview
+
+![image-center](/assets/images/GBFS_call_sequence.png){: .align-center}
