@@ -23,3 +23,7 @@ The presented novel service:
 ## System Overview
 
 ![image-center](/assets/images/GBFS_call_sequence.png){: .align-center}
+
+## SPARQL WRAPPER
+
+![image-center](/assets/images/GBFS_sparql_wrapper.png){: .align-center}
