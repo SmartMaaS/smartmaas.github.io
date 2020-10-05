@@ -11,14 +11,16 @@ We provide a free and ready-to-use data processing system which transforms and p
 
 ## GBFS  Features
 
+* SPARQL service to query GBFS live data 
 * Conversion of GBFS archives to Linked Data 
-* Computation of the [Linked Connections](https://linkedconnections.org/) graph
+ 
 
 ## SPARQL API/Service Features
 
 The presented novel service:
 * Performs SPARQL queries against non-RDF datasets.
 * Is not dependent of a certain source format, as long as the source to be queried is structured.
+* 
 
 ## System Overview
 

@@ -17,9 +17,9 @@ main:
   - title: "Vocabularies"
     url: "/vocabularies/"
     description: "Vocabularies"
-  - title: "Publications"       
-    url: /publications/
-    description: "Publications"
-  - title: "About"       
-    url: /about/
-    description: "About"
+  # - title: "Publications"       
+  #   url: /publications/
+  #   description: "Publications"
+  # - title: "About"       
+  #   url: /about/
+  #   description: "About"
