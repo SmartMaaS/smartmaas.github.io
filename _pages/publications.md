@@ -5,4 +5,4 @@ layout: single
 author_profile: false
 classes: wide
 ---
-We provide a free and ready-to-use
+On the fly SPARQL execution for structured non-RDF Web APIs

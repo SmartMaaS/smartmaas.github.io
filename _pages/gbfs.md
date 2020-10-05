@@ -29,3 +29,32 @@ The presented novel service:
 ## SPARQL WRAPPER
 
 ![image-center](/assets/images/GBFS_sparql_wrapper.png){: .align-center}
+
+## Usage
+
+### System and Environment Requirements
+
+
+### Building the system
+
+```
+git clone [BLA]
+cd [BLA]
+./docker-build.sh
+```
+
+### Processing a GTFS archive
+
+```
+./docker-run.sh --no-port /opt/gtfs-converter/import.sh https://opendata.rnv-online.de/sites/default/files/rnv-GTFS_145.zip rnv 2019-11-27
+```
+
+### Publishing the GTFS archive
+
+```
+./docker-run.sh
+```
+
+## Performance
+65475475
+67971898
