@@ -17,10 +17,10 @@ We provide a free and ready-to-use data processing system which transforms and p
 
 ## SPARQL API/Service Features
 
-The presented novel service:
+The presented offline novel solution is a micro-service, allows to send semantic queries against the legacy Web interfaces directly, and returns the result in RDF. The service API follows the SPARQL 1.1 Query API specification, and also supports federated queries over distributed endpoints, allowing an easy and accessible way for semantically enriched data integration over legacy endpoints. 
+
 * Performs SPARQL queries against non-RDF datasets.
 * Is not dependent of a certain source format, as long as the source to be queried is structured.
-* 
 
 ## System Overview
 
