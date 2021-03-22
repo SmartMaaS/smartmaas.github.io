@@ -53,7 +53,3 @@ cd [BLA]
 ```
 ./docker-run.sh
 ```
-
-## Performance
-65475475
-67971898

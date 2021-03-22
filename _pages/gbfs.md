@@ -73,32 +73,3 @@ http://[HOST]:[PORT]/query/?query=<examplequery>
 	&source=https://gbfs.nextbike.net/maps/gbfs/v1/nextbike_bf/de/free_bike_status.json
 	&mapping=http://[HOST]:[PORT]/gbfs
 ```
-
-## Usage
-
-### System and Environment Requirements
-
-### Building the system
-
-```
-git clone [BLA]
-cd [BLA]
-./docker-build.sh
-```
-
-### Processing a GTFS archive
-
-```
-./docker-run.sh --no-port /opt/gtfs-converter/import.sh https://opendata.rnv-online.de/sites/default/files/rnv-GTFS_145.zip rnv 2019-11-27
-```
-
-### Publishing the GTFS archive
-
-```
-./docker-run.sh
-```
-
-## Performance
-
-65475475
-67971898
